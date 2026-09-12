@@ -30,11 +30,7 @@ Ghi việc cụ thể + kết quả cụ thể. Không ghi chung chung kiểu "t
 
 **Dấu tay rõ nhất của tôi trong artifact cuối (1-2 câu):**
 
-```text
-Đề tài khoanh vùng tổn thương trên ảnh MRI mà cả nhóm theo đuổi là do tôi đề xuất và thuyết phục
-các thành viên chọn, dù điểm chấm ban đầu thấp hơn hai candidate còn lại. Tôi cũng là người đại diện
-nhóm trình bày nội dung bài làm với các nhóm khác.
-```
+Đề tài khoanh vùng tổn thương trên ảnh MRI mà cả nhóm theo đuổi là do tôi đề xuất và thuyết phục các thành viên chọn, dù điểm chấm ban đầu thấp hơn hai candidate còn lại. Tôi cũng là người đại diện nhóm trình bày nội dung bài làm với các nhóm khác.
 
 ---
 
@@ -67,21 +63,7 @@ Chọn 3-4 câu trong 6 câu dưới để viết thành đoạn 8-12 câu (khô
 
 **Reflection:**
 
-```text
-Khi nghe top 3 problems của các bạn khác, tôi nhận ra AI có thể được ứng dụng vào rất nhiều vấn đề,
-và mỗi bài toán là một cơ hội để tôi hiểu hơn về những khó khăn thực tế ở các lĩnh vực khác nhau.
-Trong quá trình thảo luận, tôi nhận được nhiều câu hỏi challenge từ các bạn và qua đó nhận ra nhiều
-điểm trong bài của mình vẫn chưa ổn. Ví dụ, đề tài của tôi bị chấm điểm thấp hơn hai candidate còn
-lại (20 so với 33 và 31) vì còn thiếu bằng chứng thực tế và số liệu đo được. Từ những góp ý đó, tôi đã
-cải thiện và thay đổi cách tiếp cận của mình. Đóng góp chính của tôi là đề xuất hướng ứng dụng AI vào
-phân đoạn ảnh y tế, giúp bác sĩ chẩn đoán trong thời gian ngắn hơn — đây cũng là đề tài cả nhóm chọn.
-Bên cạnh đó, tôi đại diện nhóm thuyết trình và giải thích bài làm cho các bạn ở các nhóm khác.
-Điều khó nhất khi viết Problem Statement là metric: chúng tôi chưa thể đo và đưa ra những con số
-chính xác trong thực tế, nên phải dùng số liệu tham khảo từ các nghiên cứu quốc tế. Những con số này
-giúp ước lượng impact nhưng không thay được số đo thật trong bối cảnh bệnh viện Việt Nam. Nếu làm lại,
-tôi muốn research kỹ hơn về thực tế ngay từ đầu, để bài toán AI này có thể thực sự được ứng dụng
-vào các bệnh viện.
-```
+Khi nghe top 3 problems của các bạn khác, tôi nhận ra AI có thể được ứng dụng vào rất nhiều vấn đề, và mỗi bài toán là một cơ hội để tôi hiểu hơn về những khó khăn thực tế ở các lĩnh vực khác nhau. Trong quá trình thảo luận, tôi nhận được nhiều câu hỏi challenge từ các bạn và qua đó nhận ra nhiều điểm trong bài của mình vẫn chưa ổn. Ví dụ, đề tài của tôi bị chấm điểm thấp hơn hai candidate còn lại (20 so với 33 và 31) vì còn thiếu bằng chứng thực tế và số liệu đo được. Từ những góp ý đó, tôi đã cải thiện và thay đổi cách tiếp cận của mình. Đóng góp chính của tôi là đề xuất hướng ứng dụng AI vào phân đoạn ảnh y tế, giúp bác sĩ chẩn đoán trong thời gian ngắn hơn — đây cũng là đề tài cả nhóm chọn. Bên cạnh đó, tôi đại diện nhóm thuyết trình và giải thích bài làm cho các bạn ở các nhóm khác. Điều khó nhất khi viết Problem Statement là metric: chúng tôi chưa thể đo và đưa ra những con số chính xác trong thực tế, nên phải dùng số liệu tham khảo từ các nghiên cứu quốc tế. Những con số này giúp ước lượng impact nhưng không thay được số đo thật trong bối cảnh bệnh viện Việt Nam. Nếu làm lại, tôi muốn research kỹ hơn về thực tế ngay từ đầu, để bài toán AI này có thể thực sự được ứng dụng vào các bệnh viện.
 
 ---
 

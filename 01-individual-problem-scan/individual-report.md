@@ -304,25 +304,15 @@ dữ liệu không ra khỏi hệ thống của bệnh viện.
 
 **Card tôi muốn pitch nhất:**
 
-```text
 Card #1 — Phân đoạn (khoanh vùng) tổn thương trên ảnh y tế MRI.
-```
 
 **Vì sao (2-3 câu: workflow gì, số đo gì, impact gì):**
 
-```text
-Khi đọc phim, bác sĩ chẩn đoán hình ảnh luôn phải tự xác định và khoanh vùng những vùng
-cần lưu ý bằng tay trên từng lát cắt — đây là bước hạn chế lớn nhất trong quá trình chẩn đoán.
-Bước này tốn nhiều thời gian: khoanh tay u não có thể mất tới ~60 phút/bệnh nhân.
-Nếu giải quyết được bước này, bác sĩ sẽ được hỗ trợ trong chẩn đoán, giảm sai sót và mất ít thời gian hơn.
-```
+Khi đọc phim, bác sĩ chẩn đoán hình ảnh luôn phải tự xác định và khoanh vùng những vùng cần lưu ý bằng tay trên từng lát cắt — đây là bước hạn chế lớn nhất trong quá trình chẩn đoán. Bước này tốn nhiều thời gian: khoanh tay u não có thể mất tới ~60 phút/bệnh nhân. Nếu giải quyết được bước này, bác sĩ sẽ được hỗ trợ trong chẩn đoán, giảm sai sót và mất ít thời gian hơn.
 
 **Câu hỏi tôi muốn nhóm challenge (1-2 câu hỏi đúng chỗ yếu):**
 
-```text
-Điểm yếu lớn nhất của giải pháp là khó triển khai trong môi trường bệnh viện thực tế.
-Câu hỏi: với các điều kiện cần có — tài nguyên, phần cứng, chuyên gia AI và dữ liệu  giải pháp này có thật sự triển khai được không, và nếu thiếu một trong số đó thì nên thu hẹp phạm vi thế nào?
-```
+Điểm yếu lớn nhất của giải pháp là khó triển khai trong môi trường bệnh viện thực tế. Câu hỏi: với các điều kiện cần có — tài nguyên, phần cứng, chuyên gia AI và dữ liệu, giải pháp này có thật sự triển khai được không, và nếu thiếu một trong số đó thì nên thu hẹp phạm vi thế nào?
 
 **AI phản biện Card (nếu có):**
 - Điểm yếu AI chỉ ra:
