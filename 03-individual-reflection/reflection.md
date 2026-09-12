@@ -4,10 +4,10 @@
 
 ## Thông tin cá nhân
 
-- Họ và tên:
-- Mã học viên:
-- Nhóm:
-- Candidate problem nhóm chọn:
+- Họ và tên: Nguyễn Văn Quốc Việt
+- Mã học viên: 2A202602973
+- Nhóm: Brave - Zone2
+- Candidate problem nhóm chọn: 
 
 ---
 

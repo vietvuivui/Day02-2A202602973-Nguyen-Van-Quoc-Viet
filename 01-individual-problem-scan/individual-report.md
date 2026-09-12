@@ -216,8 +216,6 @@ Boundary: AI không tự ghi vào bệnh án chính thức; thông tin dị ứn
 bệnh nhân; dữ liệu không ra khỏi hệ thống của bệnh viện.
 ```
 
-File đính kèm: `01-individual-problem-scan-workflow-card-2.png`
-
 ---
 
 #### Problem Card #3 — Số hóa bệnh án chỉ nhập tóm tắt, thiếu trường quan trọng
@@ -300,8 +298,6 @@ Boundary: AI không tự lưu vào bệnh án; mọi trường phải được n
 dữ liệu không ra khỏi hệ thống của bệnh viện.
 ```
 
-File đính kèm: `01-individual-problem-scan-workflow-card-3.png`
-
 ---
 
 ### 2.3. Card muốn pitch nhất (chuẩn bị 2 phút)
@@ -309,19 +305,23 @@ File đính kèm: `01-individual-problem-scan-workflow-card-3.png`
 **Card tôi muốn pitch nhất:**
 
 ```text
-[TODO: tự viết — không dùng AI]
+Card #1 — Phân đoạn (khoanh vùng) tổn thương trên ảnh y tế MRI.
 ```
 
 **Vì sao (2-3 câu: workflow gì, số đo gì, impact gì):**
 
 ```text
-[TODO: tự viết — không dùng AI]
+Khi đọc phim, bác sĩ chẩn đoán hình ảnh luôn phải tự xác định và khoanh vùng những vùng
+cần lưu ý bằng tay trên từng lát cắt — đây là bước hạn chế lớn nhất trong quá trình chẩn đoán.
+Bước này tốn nhiều thời gian: khoanh tay u não có thể mất tới ~60 phút/bệnh nhân.
+Nếu giải quyết được bước này, bác sĩ sẽ được hỗ trợ trong chẩn đoán, giảm sai sót và mất ít thời gian hơn.
 ```
 
 **Câu hỏi tôi muốn nhóm challenge (1-2 câu hỏi đúng chỗ yếu):**
 
 ```text
-[TODO: tự viết — không dùng AI]
+Điểm yếu lớn nhất của giải pháp là khó triển khai trong môi trường bệnh viện thực tế.
+Câu hỏi: với các điều kiện cần có — tài nguyên, phần cứng, chuyên gia AI và dữ liệu  giải pháp này có thật sự triển khai được không, và nếu thiếu một trong số đó thì nên thu hẹp phạm vi thế nào?
 ```
 
 **AI phản biện Card (nếu có):**
@@ -351,8 +351,23 @@ File đính kèm: `01-individual-problem-scan-workflow-card-3.png`
 ### Self-check nộp phần 01
 - [x] Có 5+ problems + top 3 Cards đủ field
 - [x] Mỗi Card có workflow trước/sau + bottleneck + metric + fallback
-- [ ] Đã chọn 1 card pitch + câu hỏi challenge
+- [x] Đã chọn 1 card pitch + câu hỏi challenge
 
 ---
+
+## Nguồn tham khảo
+
+Số liệu dưới đây là số tham khảo từ nghiên cứu / báo cáo đã công bố, không phải số đo tại khoa tôi.
+
+| Mã | Nguồn | Số liệu dùng trong bài | Dùng ở đâu | Link |
+|---|---|---|---|---|
+| R1 | Kaus MR và cộng sự (2001). *Automated segmentation of MR images of brain tumors.* Radiology | Khoanh tay u não: 3–5 giờ thao tác; tự động: 5–10 phút | Scan #5 | [PubMed 11161183](https://pubmed.ncbi.nlm.nih.gov/11161183/) |
+| R2 | Meier R và cộng sự (2016). *Clinical Evaluation of a Fully-automatic Segmentation Method for Longitudinal Brain Tumor Volumetry.* Scientific Reports | Đo thể tích u tay: tới ~1 giờ/BN; tự động: ~5 phút/BN | Scan #5, Card #1 | [PMC4802217](https://pmc.ncbi.nlm.nih.gov/articles/PMC4802217/) |
+| R3 | Colmer và cộng sự (2026). *Validity of intracerebral haemorrhage volume assessment: comparison of fully automated segmentation analysis with manual ABC/2 and semi-automated measurement.* European Stroke Journal | ABC/2 làm trong vài phút; cả ABC/2 lẫn phương pháp tự động đều chưa đạt ngưỡng lệch ≤10% so với chuẩn tham chiếu | Scan #5 | [PMC12866654](https://pmc.ncbi.nlm.nih.gov/articles/PMC12866654/) |
+| R4 | O'Neill TJ và cộng sự (2021). *Active Reprioritization of the Reading Worklist Using Artificial Intelligence Has a Beneficial Effect on the Turnaround Time for Interpretation of Head CT with Intracranial Hemorrhage.* Radiology: Artificial Intelligence | Thời gian chờ đọc: 12,02 phút (AI dương tính, có ưu tiên) so với 15,45 phút (AI âm tính) | Scan #3 | [PubMed 33937858](https://pubmed.ncbi.nlm.nih.gov/33937858/) |
+| R5 | Ristow I và cộng sự (2024). *Tumor Response Evaluation Using iRECIST: Feasibility and Reliability of Manual Versus Software-Assisted Assessments.* Cancers | 30 BN; đo tay 4,00 phút so với 2,50 phút (phần mềm); phân loại sai ở lần theo dõi 2: 10% so với 1,7% | Scan #4 | [DOI 10.3390/cancers16050993](https://doi.org/10.3390/cancers16050993) |
+| R6 | Overhage JM, McCallie D Jr (2020). *Physician Time Spent Using the Electronic Health Record During Outpatient Encounters.* Annals of Internal Medicine | 16 phút 14 giây/lượt khám cho EHR; xem lại hồ sơ chiếm 33% | Scan #1, Card #2 | [PubMed 31931523](https://pubmed.ncbi.nlm.nih.gov/31931523/) |
+| R7 | Obeidat và cộng sự (2026). *Quality of Drug Allergy Documentation in a Resource-Limited Paper-Based Hospital in Pakistan: Audit of Concordance and Completeness.* Healthcare (Basel) | 88 hồ sơ; chỉ 25% ghi chép lâm sàng có ghi tình trạng dị ứng; 0/9 ghi đủ 5 yếu tố | Scan #2, Card #3 | [PMC13072779](https://pmc.ncbi.nlm.nih.gov/articles/PMC13072779/) |
+| R8 | VnEconomy — *Bộ Y tế sẽ thực hiện các giải pháp đồng bộ nhằm giảm quá tải bệnh viện tuyến Trung ương* (số liệu Bộ Y tế) | Công suất giường bệnh tuyến tỉnh 92% (2014) → 129% (2022); tuyến trung ương 100% → 80% | Scan #6 | [vneconomy.vn](https://vneconomy.vn/bo-y-te-se-thuc-hien-cac-giai-phap-dong-bo-nham-giam-qua-tai-benh-vien-tuyen-trung-uong.htm) |
 
 
